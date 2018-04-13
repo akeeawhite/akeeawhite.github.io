@@ -1,0 +1,157 @@
+/* So the HTML5 structural tags work in older browsers */
+/* Name: Akeea White
+   Program: main.css*/
+ 
+html {
+   background-color: #000000;
+	}
+
+ 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+	width: 1000px;
+	background-color: white; 
+	
+}
+
+
+header {text-align: center;
+      background-image: -moz-linear-gradient(top, #FFCC00 0%, #FF3F00 50%, #ff0000 75%);
+      background-image: -webkit-linear-gradient(top, #FFCC00 0%, #FF3F00 50%, #ff0000 75%);
+      background-image: -o-linear-gradient(top, #FFCC00 0%, #FF3F00 50%, #ff0000 75%);
+      background-image: linear-gradient(top, #FFCC00 0%, #FF3F00 50%, #ff0000 75%)}
+
+header {font: Impact, Charcoal, sans-serif;}
+
+nav {border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+	background-color: #ff0000;
+	color: #000000;}
+
+nav ul {
+	list-style: none;
+	padding: .25em 0;
+	}
+	
+nav li {display: inline;}
+	
+nav a {
+	padding: 1em 4em;
+	text-decoration: none;
+	font-weight: bold;
+	border-right: 2px solid #ff0000; 
+	text-transform:uppercase;
+    font-size:12px;
+    font-weight:bold;
+	color: #000000;
+	}
+
+
+#slider {
+	height:400px;
+	width:650px;
+	margin: 50px auto;
+	position:relative;
+	border-radius:4px;
+	overflow:hidden;
+	}
+#image {
+	height:400px;
+	width:650px;
+	position:absolute;
+	}
+.left_hold {
+	height: 400px;
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.right_hold {
+	height: 400px;
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.left {
+	height:50px;
+	width:50px;
+	position:absolute;
+	top:40%;
+	left:20px;
+	opacity:0;
+	transition: all .2s ease-in-out 0s;
+	}
+.right {
+	height:50px;
+	width:50px;
+	position:absolute;
+	top:40%;
+	right:20px;
+	opacity:0;
+	transition: all .5s ease-in-out 0s;
+	}
+.left_hold:hover .left {
+	opacity:0.6;
+	}
+.right_hold:hover .right {
+	opacity:0.6;
+}
+.left:hover .left1
+	
+nav a.current {color: #ffffff;}
+a:hover, a:focus {font-style: italic;}
+
+.classMonth{text-align: center;}
+
+	
+footer p {text-align: center;}
+
+
+footer {
+	border-top: 1px solid #000000;
+	clear: both;
+	text-align: center;
+}
+footer p {
+	padding: 1em 0;
+	text-align: center;
+}
+
+section {margin: 30px;}
+
+
+section #image_list li {
+	display: inline;
+}
+section #image_list a {
+	border:none;
+	text-decoration: none;
+}
+
+section #controls {
+	float: right;
+	top: 8;
+	right: 8;
+}
+
+table {
+	border-collapse: collapse;
+	width: 75%;
+}
+
+thead, tfoot {
+	border-bottom:1px solid #000000;
+	border-top:1px solid #000000;
+}
+
+th, td {
+	padding: .2em .7em;
+	text-align: center;
+}
+tfoot th, tfoot td {
+	font-weight: bold;
+}
