@@ -54,9 +54,24 @@ li.linkedin a {
 	text-align: center;
 }
 
+li.twitter a {
+	font-size: 1.8em;
+	color: #fff !important;
+	text-align: center;
+}
+
+li.github a {
+	font-size: 1.8em;
+	color: #fff !important;
+	text-align: center;
+}
+
+
 li.facebook a:hover,
-li.linkedin a:hover {
-	opacity: .8;
+li.linkedin a:hover,
+li.twitter a:hover,
+li.github a:hover{
+	opacity: .5;
 }
 
 /* header */
